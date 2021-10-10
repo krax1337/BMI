@@ -16,6 +16,17 @@ function Input(){
     const Calculating=()=>{
         setloader(true)
         setTimeout(()=>{setloader(false)},2000)
+        if(isNaN(weight) || weight <=0){
+    
+            alert("Enter Valid Value For -> Weight"); 
+            return "Not Valid Input"
+              }
+              else if(isNaN(height) || height <=0){
+              
+            alert("Enter Valid Value For -> Height");
+            return "Not Valid Input"
+             }
+        
         const res= word/((height*height)/10000)
         return(
             <View>
