@@ -24,8 +24,14 @@ const styles = StyleSheet.create({
     },
     img:{
       width:40,
-      height:40  
+      height:40,
+      resizeMode:contain,
+      borderTopRightRadius:5,
+      borderTopLeftRadius:5,
+      borderBottomLeftRadius:5,
+      borderBottomRightRadius:5  
     }
+    
 })
 
 
