@@ -37,7 +37,7 @@ function Input(){
 
     }
     return(
-       <View>
+       <View style={styles.container}>
             <TextInput
             placeholder="kg"
             style={styles.input}
@@ -61,6 +61,14 @@ function Input(){
 }
 
 const styles=StyleSheet.create({
+    container:{
+    flex: 1,
+    justifyContent: 'center',
+    paddingTop: Constants.statusBarHeight,
+    backgroundColor: '#ffffff',
+    padding: 8,
+    }
+    ,
     input:{
         color: '#555555',
         paddingRight: 10,
