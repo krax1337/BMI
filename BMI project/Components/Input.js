@@ -29,7 +29,7 @@ function Input(){
         
         const res= word/((height*height)/10000)
         return(
-            <View>
+            <View style={styles.calculate}>
              <Text> You Body Mass Index is {res}</Text>
              <Text>A Healthy BMI Ranges Between 19 and 25 :)</Text>
             </View>
@@ -70,6 +70,14 @@ const styles=StyleSheet.create({
         borderWidth: 1,
         borderRadius: 2,
         backgroundColor: '#ffffff'
+    },
+    calculate:{
+        color: '#555555',
+        paddingRight: 10,
+        paddingLeft: 10,
+        paddingTop: 5,
+        backgroundColor: '#ffffff'
+
     }
 })
 
