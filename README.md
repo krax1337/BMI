@@ -5,6 +5,8 @@ Any changes or updates can be opened in the issue section or  can directly make 
 
 Genuine pull requests will be merged
 
+Do Star The repo if you liked Contributing Here :)
 
-Happy HacktoberFest :)
+
+Happy HacktoberFest !!
 
