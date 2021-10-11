@@ -18,8 +18,8 @@ In simple words, pull requests are a mechanism for a developer to tell that thei
 2. Create a new branch (In case using cli use `git checkout -b yourbranchname`)
 3. Add a new file with your github username or a custom code of your own!
 4. Git Add and commit the changes.(Incase using CLI : `git add <filename>` and `git commit -m commitmessage`)
-5. Push the code! (Yay! Your first commit. Push using `git push origin yourbranchname`)
-5. On the github go to a branch and create a PR using the button there!
+5. Push the code! ( Push using `git push origin yourbranchname`)
+5. On the github go to a branch and create a PR using the button there.
 
 
 - I would recommend using github desktop for committing your code if you are a beginner but if you want to learn cli/gitbash there are commands in the steps.
